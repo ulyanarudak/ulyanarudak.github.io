@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ULYANA</title>
+    <link rel= "stylesheet" href="https://fonts.googleapis.com/css?family=Adamina">
+        
+    <style>
+       body {
+	background: linear-gradient(-45deg, #fd6ab1cf, #ffc2d9, hsl(195, 62%, 85%));
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+	height: 500vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Adamina", sans-serif;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Adamina", sans-serif;
+        }
+        header {
+            background-color: hsl(330, 100%, 80%); 
+            color: #fff;
+            padding: 0.1em;
+            text-align: center; 
+        }
+        .rectangle {
+    border: 1px solid #ff0090;
+    padding: 25px;
+    position: relative;
+    margin-bottom: 5%;
+    margin-top: -3%;
+}
+p {
+    text-align: center; 
+    font-size: 17px;
+}
+p2 {
+    text-align: center; 
+    font-size: 17px;
+}
+p3 {
+    text-align: center; 
+    font-size: 17px;
+}
+.text {
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+}
+        nav {
+            padding: 1em;
+        }
+        .navbar {
+      overflow: hidden;
+    }
+    .navbar a {
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+    }
+    .navbar a:hover {
+      background-color: #ff00ae89;
+      color: rgb(255, 229, 240);
+    }
+        .image-grid {
+    width: 100%;
+ display: grid;
+ grid-template-columns: 400px 400px 400px;
+  grid-template-rows: repeat (3, 2fr);
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  grid-row-gap: 40px;
+  }
+.image-grid > img {
+    width: 80%;
+    height: 105%;
+    object-fit: cover; 
+}
+.image-grid > video {
+    width: 80%;
+    height: 105%;
+    object-fit: cover;  
+}
+        section {
+        padding: 5em;
+            position: relative;
+        }
+        footer {
+  text-align: center;
+  padding: 4.3rem;
+    margin-top: -2%;
+}      
+form {
+  max-width: 400px;
+  margin: 0 auto; /* Center the form horizontally */
+}
+input[type=text], textarea 
+{
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #000000; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #f9a2c29f;
+  color: rgb(48, 27, 27);
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ff6aa3;
+}
+
+.container {
+  padding: 20px;
+}
+    </style>
+    </head>
+    <body>
+        <header>
+            <h1 align=center>ULYANA</h1> 
+            <marquee> Nice to meet you in my travel blog! </marquee>
+            <div class="navbar">
+            <nav>
+            <a href="Home Page.html">Home</a>
+            <a href="Meet Me.html">Meet me</a>
+            <a href="Destinantions.html">Destinations</a>
+            <a href="Photography.html">Photography</a>
+        </nav>
+            </div>
+        </header>
+        
+        <section> 
+            <div class="rectangle">
+                <h1 class="text">Photography</h1>
+            </div>
+            <div class="image-grid">
+                <img src="pic11.jpeg" alt="Image 1">
+                <img src="PIC1.jpeg" alt="Image 2">
+                <video controls autoplay muted loop>
+                    <source src="IMG_4332.MOV" type="video/mp4">
+            </video>
+                <img src="pic5.jpeg" alt="Image 3">
+               <video controls autoplay muted loop>
+                    <source src="IMG_9632.MOV" type="video/mp4">
+            </video>
+                <img src="pic3.jpeg" alt="Image 4">
+                <video controls autoplay muted loop>
+                    <source src="IMG_6149.MOV" type="video/mp4">
+            </video>
+                <img src="pic14.jpeg" alt="Image 5"> 
+                <img src="pic13.jpeg" alt="Image 6">
+                
+                <img src="pic6.jpeg" alt="Image 7">
+                <video controls autoplay muted loop>
+                    <source src="IMG_7613.MOV" type="video/mp4">
+            </video>
+                
+                <img src="pic12.jpeg" alt="Image 8">
+                <img src="pic4.jpeg" alt="Image 9">
+                <img src="pic10.jpeg" alt="Image 10">
+                <video controls autoplay muted loop>
+                    <source src="IMG_7501.MOV"video/mp4">
+            </video>
+                <img src="pic2.jpeg" alt="Image 11">
+                <video controls autoplay muted loop>
+                    <source src="IMG_2521.MOV" type="video/mp4">
+            </video>
+                <img src="pic7.jpeg" alt="Image 12">
+                <video controls autoplay muted loop>
+                    <source src="IMG_7619.MOV" type="video/mp4">
+            </video>
+                <img src="pic15.jpeg" alt="Image 14">
+                <img src="pic8.jpeg" alt="Image 15">
+            </div>
+        </section>
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">Name</label>
+              <input type="text" id="fname" name="firstname" >
+        
+              <label for="subject">Ask me a question</label>
+              <textarea id="subject" name="subject"  style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+        <footer>
+            <p1 align=center> Follow me on Instagram <a href="https://www.instagram.com/ullyaaaaana/" target="_blank">@ullyaaaaana</a></p1>
+        </footer>
+        </div>
+    </body>
+    </html>
